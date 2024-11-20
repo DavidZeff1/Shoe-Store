@@ -1,0 +1,53 @@
+
+
+.cardContainer {
+  border-radius: 10px;
+  /*so img will be aligned with card border*/
+  overflow: hidden;
+  max-width: 300px;
+  background-color: #fff;
+}
+
+.cardImg {
+  width: 100%;
+  /*ensure that card imgs are same size despite some being larger or smaller*/
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.cardBody {
+  padding: 15px;
+}
+
+.cardHeading {
+  margin: 5px 2px;
+  font-size: 1rem;
+}
+
+.cardText {
+  margin: 5px 2px;
+  color: black;
+  font-size: 20px;
+}
+
+.cardCost {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.addBtn {
+  display: block;
+  background-color: #FFD700;
+  color: #2E236C;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #FFC107;
+}
+
+
+
+  

@@ -1,0 +1,49 @@
+/*styled to have logo center and icons to the right*/
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.navBarLogo {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.navBarIcons {
+  display: flex;
+  gap: 30px;
+}
+
+.navBarIcons a {
+  color: white;
+}
+
+.navBarIcons a:hover {
+  color: #8b6b6b;
+}
+
+.cartIcon {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+/*this will display the amount of items in cart, its displayed relative to its parent*/
+.cartBadge {
+  position: absolute;
+  top: -5px;
+  right: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+  

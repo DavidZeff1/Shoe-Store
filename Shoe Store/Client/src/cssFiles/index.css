@@ -1,0 +1,32 @@
+/* Global background and text color, i used color template website for good contrasting colors */
+body {
+  background-color: #F0E6FF;
+  color: #2E236C; 
+  margin: 0;
+  font-family: Arial; 
+}
+
+.productsContainer {
+  display: grid;
+  /*typically will have 3 * 3 grid*/
+  /*3 columns with equal width*/
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  /*for smaller devices 2 columns with equal width*/
+  .productsContainer {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 400px) {
+  /*for even smaller screens 1 column*/
+  .productsContainer {
+    grid-template-columns: 1fr; 
+  }
+}
+
+  

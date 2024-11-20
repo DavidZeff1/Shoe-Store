@@ -1,0 +1,60 @@
+
+/*item styling*/
+.orderItemCard {
+  border: 1px solid #2b2323;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #e0d5d5;
+  display: flex;
+}
+
+.orderItemImage {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 100px;
+}
+
+.orderForm label {
+  margin-bottom: 5px;
+}
+/*styling for different form fields*/
+.orderForm input,
+.orderForm textarea,
+.orderForm select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.orderForm button {
+  padding: 10px;
+  background-color: #00ff8c;
+  color: #fff;
+  border-radius: 5px;
+  /*user responsiveness*/
+  cursor: pointer;
+}
+
+.orderForm button:hover {
+  background-color: #0056b3;
+}
+/*red for error green for success*/
+.errorMessage {
+  color: red;
+}
+
+.successMessage {
+  color: green;
+}
+
+  
+  
